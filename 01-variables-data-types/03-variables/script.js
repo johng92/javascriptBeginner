@@ -9,12 +9,12 @@ console.log(firstName, lastName);
 let age = 30;
 console.log(age);
 
-//Naming Conventions
+//Naming Conventions for VARIABLES
 // -Only letters,numbers,underscores and dollar signs
 // - Can't start with a number
 
 let name1 = 'john';
-//let 1name = 'john';   That's not gonna work, bcoz it starting with mumber
+//let 1name = 'john';  That's not gonna work, bcoz it starting with mumber
 // let name+ = 'john';
 
 // Multi-Word Formatting
@@ -29,9 +29,14 @@ console.log(age);
 
 //We can just declare a value using "let"
 let score; 
+//immediately not assigning a value, Not initiallizing at beginning
 score = 2;
 
 console.log(score);
+
+var john;
+john = 'hardcore java developer';
+console.log(john, typeof john);
 
 if (true) {
   score = score + 2;
@@ -55,7 +60,7 @@ const arr = [1,2,3,4];
 
 // arr = [1,2,3,4,5];  this one is assigning to the same const variable, 
 // But. this push will work  .push is a method
-arr.push(5);
+arr.push(5,6);
 console.log(arr);
 
 const person = {
@@ -66,6 +71,7 @@ const person = {
 //but, the key or property I am changing.  .name is a property
 person.name = 'john';
 person.email = 'john@gmail.com';
+person.address='Gopikandar';
 
 console.log(person);
 
@@ -80,6 +86,6 @@ e = 20,
 f = 30;
 
 console.log(d);
-console.log(a);
-//this is of line 77, a is declared without value
-//so, this will give undefined.
+console.log(a); 
+//this is of line 82, a is declared without value
+//so, this will give undefined. bcoz, we only declared let a,b,c; nothing assigned
