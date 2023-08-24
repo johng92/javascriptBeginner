@@ -1,4 +1,4 @@
-//Ways to declare a variable
+//Ways to declare a V A R I A B L E
 // var, let, const
 
 let firstName='John';
@@ -10,8 +10,13 @@ let age = 30;
 console.log(age);
 
 //Naming Conventions for VARIABLES
-// -Only letters,numbers,underscores and dollar signs
+// -Only letters,numbers,underscores and dollar signs- j_1$
 // - Can't start with a number
+let _1= 2;
+console.log(_1); /*can start with _ underScore*/
+
+let $john = 'Hardcore Programmer'
+console.log($john);
 
 let name1 = 'john';
 //let 1name = 'john';  That's not gonna work, bcoz it starting with mumber
@@ -31,7 +36,8 @@ console.log(age);
 let score; 
 //immediately not assigning a value, Not initiallizing at beginning
 score = 2;
-
+score = 3;
+score = 777;
 console.log(score);
 
 var john;
@@ -69,12 +75,12 @@ const person = {
 //directly reassign to the person, will not work, But
 //This will work, bcoz I'm not changing the varialbe
 //but, the key or property I am changing.  .name is a property
-person.name = 'john';
+person.name = 'johny';
 person.email = 'john@gmail.com';
 person.address='Gopikandar';
 
 console.log(person);
-
+//property method, k sahare key ka value ko change kiya ja sakta hai.
 // Sir, always use const UNLESS he know he want to re-assign something
 
 //Declare mutliple values at once

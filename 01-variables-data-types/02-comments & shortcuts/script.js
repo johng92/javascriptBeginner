@@ -6,7 +6,8 @@ Ctrl + B ----- Toggle The side bar
 Ctrl+ ~ ------ Toggle The terminal
 this one on File manager, left corner
 Ctrl+shift+F --- This will search all The keyword in all files*/
-
+//Shift+<arrow to select, and [Ctrl+D] to select
+//the both OPEN & CLOSED TAG in once.
 
 // This is a single line of code , Double forward slash......and The other one is like, CSS
 
