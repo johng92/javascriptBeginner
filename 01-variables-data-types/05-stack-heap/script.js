@@ -1,0 +1,1 @@
+//Values are stored on the stack

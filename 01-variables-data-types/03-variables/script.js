@@ -52,7 +52,7 @@ console.log(score);
 //Uses of "const"
 
 const x = 100;
-
+console.log(x, typeof x);
 //  x = 200;
 //We can not re-assign a value to const variable.
 //Const can't be directly re-assigned
