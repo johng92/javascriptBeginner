@@ -16,7 +16,7 @@ y = 'Hello' +' '+'World';
 console.log(y);
 
 // Exponent
-z = 2**3;
+z = 2**4;
 
 console.log(z);
 
