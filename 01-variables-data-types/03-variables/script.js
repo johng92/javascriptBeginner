@@ -10,7 +10,7 @@ let age = 30;
 console.log(age);
 
 //Naming Conventions for VARIABLES
-// -Only letters,numbers,underscores and dollar signs- j_1$
+// -Only letters,underscores, dollar signs- j_1$ and numbers but in end
 // - Can't start with a number
 let _1= 2;
 console.log(_1); /*can start with _ underScore*/

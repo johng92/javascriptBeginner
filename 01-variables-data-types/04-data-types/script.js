@@ -58,7 +58,7 @@ const reslt = n;
 console.log(reslt, typeof reslt);
 
 
-// R E F E R E N C E  TYPES- Objects
+// R E F E R E N C E -- DATA TYPES- (Objects)
 // no.1 types Arrays
 const numbers = [1,2,3,4,5]
 const outcome = numbers;

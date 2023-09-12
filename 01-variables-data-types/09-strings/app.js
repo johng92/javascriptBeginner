@@ -24,21 +24,21 @@ console.log(z, typeof s); /*gives 11 'string' */
 
 const d = new String('I love Javascript');
   /*The `d` variable now holds a new String object with the value "i love javascript".*/
-j = typeof d;
-j = d.length;
-j = d[4];
+j = typeof d; /*type is object*/
+j = d.length; /*length is 17 */
+j = d[4];   /* prints v, i.e. Located at index 4*/
 
-j = d.__proto__;
-  /*console.log(j); */
-  /*console.log(d); */
+j = d.__proto__; /*show all the string functions*/
+  /*console.log(j);  Shows the same thing, all functions*/
+  /*console.log(d); shows , Strings {'I Love Javascript'}
 
-j = d.toUpperCase();
-j = d.toLowerCase();
-j = d.charAt(0); /*same as,    j=d[0];  */
-j = d.indexOf('l'); /*gives 3, as I love , L is on 3rd index*/
-j = d.substring(0,5); /*gives, i lov */
-j = d.substring(7); /*gives, Javascript */
-j = d.slice(-10, -6); /*count from left, -10th place it starts to -6 */
+//j = d.toUpperCase();
+//j = d.toLowerCase();
+//j = d.charAt(0); /*same as,    j=d[0];  */
+//j = d.indexOf('l'); /*gives 3, as I love , L is on 3rd index*/
+//j = d.substring(0,5); /*gives, i lov */
+//j = d.substring(7); /*gives, Javascript */
+//j = d.slice(-10, -6); /*count from left, -10th place it starts to -6 */
 
 console.log(j);
 
