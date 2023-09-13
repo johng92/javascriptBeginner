@@ -8,8 +8,8 @@ console.log(typeof numb);     /*gives - object */
 
 const num = new Number(9);
 
-x = num.toString();  /* num== 5 , we are adding methods to existing number*/
-console.log(x, typeof x);   /*gives 5 string*/
+x = num.toString();  /* num== 9 , we are adding methods to existing number*/
+console.log(x, typeof x);   /*gives 9 string*/
 
 // There is NO LENGTH PROPERTY for Numbers
 x = num.length;
@@ -17,7 +17,7 @@ console.log(x); /*gives- undefined*/
 
 //If u want to check how many digits are there, use .toString method
 x = num.toString().length;
-console.log(x, typeof x);  /*gives   1 , as above num=5 was there*/
+console.log(x, typeof x);  /*gives   1 , as above num=9 is there*/
 
 x = num.toFixed(2);
 console.log(x, typeof x);   /*gives 9.00 and it's string*/
