@@ -29,14 +29,14 @@ x = Math.random();
 console.log(x); /*on each reload gives random dec.no. between 0 to 1 */
 
 x = Math.random() * 10;
-console.log(x); /*gives Random(0-9)oneDigit.decimals on each reload */
+console.log(x); /*gives Random(0-9)oneDigit.decimals on each reload (10 chor kar ke)*/
 
 //to get 1 to 10
 x = Math.random() * 10 + 1;
 console.log(x); /*gives oneDigit.decimals between 1 to 10 */
 
 //To make it WHOLE Number
-x = Math.floor(Math.random() * 10 + 1);
+x = Math.floor(Math.random() * 10 + 1); /* +1, ensures that result will be 1 to 10 (10 mila kar ke) */
 console.log(x);
 //ABOVE CODE you'll see most of the time in programming to generate random number
 
