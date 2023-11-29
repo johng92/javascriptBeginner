@@ -12,11 +12,11 @@ console.log(x);
 
 // Concatenation
 
-y = 'Hello' +' '+'World';
+y = "Hello" + " " + "World";
 console.log(y);
 
 // Exponent
-z = 2**4;
+z = 2 ** 4;
 
 console.log(z);
 
@@ -39,9 +39,8 @@ g += 9;
 g -= 10;
 g *= 5;
 g /= 20;
-g %= 2;   /* g which has became 10 will be divided by 2 and remainder will be the result*/
+g %= 2; /* g which has became 10 will be divided by 2 and remainder will be the result*/
 console.log(g);
-
 
 // 3. C O M P A R I S O N  Operators
 
@@ -51,7 +50,7 @@ x = 2 === 2; //Equal value & equal type operator
 console.log(x);
 
 y = 2 != 2;
-y = 2 !== '2';
+y = 2 !== "2"; /*it's logging the most recent iterations,not the above one*/
 console.log(y);
 
 z = 10 > 5;
